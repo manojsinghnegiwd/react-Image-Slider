@@ -1,0 +1,27 @@
+{
+  "name": "react-image-slider",
+  "description": "Boilerplate for kick starting a React Project with ES6 (Babel) and Hot reloader using Webpack.",
+  "main": "index.js",
+  "authors": [
+    "Manoj"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "es6",
+    "babel",
+    "webpack"
+  ],
+  "homepage": "https://github.com/manojsinghnegiwd/react-Image-Slider",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "Font-Awesome#^4.6.3"
+  }
+}
