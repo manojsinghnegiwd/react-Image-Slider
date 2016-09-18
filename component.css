@@ -1,6 +1,11 @@
 .react-image-slider {
 	border-radius: 10px;
+	border: 1px solid #c1c1c1;
+	overflow: hidden;
+	display: inline-block;
+	box-shadow: 0px 2px 20px 0px rgba(50, 50, 50, 0.13)
 }
+
 .buttons {
 	background-color : white;
 	border : none;
