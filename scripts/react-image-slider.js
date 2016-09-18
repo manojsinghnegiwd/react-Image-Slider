@@ -55,10 +55,10 @@ export default class ReactImageSlider extends Component {
 			<div>
 				<img onClick={this.next} src={this.state.images[this.state.currentIndex].src}></img>
 				<div>
-					<button className="buttons" onClick={this.next}>
+					<button disabled={this.state.currentIndex == 0} className="buttons" onClick={this.previous}>
 						<i className="fa fa-angle-left"></i>
 					</button>
-					<button className="buttons" onClick={this.previous}>
+					<button disabled={this.state.currentIndex == this.state.images.length -1} className="buttons" onClick={this.next}>
 						<i className="fa fa-angle-right"></i>
 					</button>
 				</div>
