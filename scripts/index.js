@@ -3,6 +3,6 @@ import {render} from 'react-dom';
 import ReactImageSlider from './react-image-slider';
 
 render(
-  <ReactImageSlider />,
+  <ReactImageSlider width="640"  height="486" />,
   document.getElementById('root')
 );
