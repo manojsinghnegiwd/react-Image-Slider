@@ -3,6 +3,7 @@
 	border : none;
 	font-size: 40px;
 	color: #c1c1c1;
+	transition: background 0.4s;
 }
 
 .buttons:focus {
