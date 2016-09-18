@@ -22,7 +22,7 @@ export default class ReactImageSlider extends Component {
 			currentIndex: 0
 	    };
 	    this.next = this.next.bind(this);
-	    console.log(this);
+	    this.previous = this.previous.bind(this);
 	}
 
 	next() {
@@ -40,7 +40,7 @@ export default class ReactImageSlider extends Component {
 	previous() {
 		let Index = this.state.currentIndex;
 
-		if(0 > Index) {
+		if(0 < Index) {
 			Index -= 1;
 		}
 
@@ -54,7 +54,8 @@ export default class ReactImageSlider extends Component {
 		// Add your component markup and other subcomponent references here.
 			<div>
 				<img onClick={this.next} src={this.state.images[this.state.currentIndex].src}></img>
-				<h1>{this.state.currentIndex}</h1>
+				<button onClick={this.next}>Next</button>
+				<button onClick={this.previous}>Previous</button>
 			</div>
 		);
 	}
