@@ -4,3 +4,16 @@
 	font-size: 40px;
 	color: #c1c1c1;
 }
+
+.buttons:focus {
+	border: none;
+	outline: none;
+}
+
+.buttons:hover {
+	color: #333;
+}
+
+.buttons:disabled:hover {
+	color: #c1c1c1;
+}
