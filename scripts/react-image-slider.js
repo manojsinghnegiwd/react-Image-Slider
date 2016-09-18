@@ -50,15 +50,21 @@ export default class ReactImageSlider extends Component {
 	}
 
 	render() {
+		let buttonStyle = {
+			backgroundColor : 'white',
+			border : 'none',
+			fontSize: '40px',
+			color: '#c1c1c1'
+		}
 		return (
 		// Add your component markup and other subcomponent references here.
 			<div>
 				<img onClick={this.next} src={this.state.images[this.state.currentIndex].src}></img>
 				<div>
-					<button onClick={this.next}>
+					<button style={buttonStyle} onClick={this.next}>
 						<i className="fa fa-angle-left"></i>
 					</button>
-					<button onClick={this.previous}>
+					<button style={buttonStyle} onClick={this.previous}>
 						<i className="fa fa-angle-right"></i>
 					</button>
 				</div>
