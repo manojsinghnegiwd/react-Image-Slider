@@ -1,6 +1,6 @@
 # React Image Slider
 
-A React Image slider component bulit with the following technologies:
+A React Image slider component built with the following technologies:
 * [React](https://github.com/facebook/react)
 * [Babel 6](https://github.com/vasanthk/react-es6-webpack-boilerplate) React ES6 Webpack Boilerplate
 * [Font-Awesome](http://fontawesome.io/) for hot reloading React components in real time.
