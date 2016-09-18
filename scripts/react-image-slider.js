@@ -35,8 +35,18 @@ export default class ReactImageSlider extends Component {
 		this.setState({
 			currentIndex : Index
 		});
+	}
 
-		console.log(this.state.currentIndex);
+	previous() {
+		let Index = this.state.currentIndex;
+
+		if(0 > Index) {
+			Index -= 1;
+		}
+
+		this.setState({
+			currentIndex : Index
+		});
 	}
 
 	render() {
