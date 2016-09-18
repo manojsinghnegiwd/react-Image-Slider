@@ -1,8 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
-import App from './App';
+import ReactImageSlider from './react-image-slider';
 
 render(
-  <App />,
+  <ReactImageSlider />,
   document.getElementById('root')
 );
