@@ -3,7 +3,7 @@
 A React Image slider component built with the following technologies:
 * [React](https://github.com/facebook/react)
 * [Babel 6](https://github.com/vasanthk/react-es6-webpack-boilerplate) React ES6 Webpack Boilerplate
-* [Font-Awesome](http://fontawesome.io/) for hot reloading React components in real time.
+* [Font-Awesome](http://fontawesome.io/) for beautiful buttons.
 
 <img src="img/Screenshot.png" alt="screenshot react-image-slider">
 
